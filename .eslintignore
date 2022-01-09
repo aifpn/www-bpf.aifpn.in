@@ -1,0 +1,11 @@
+# dev packages
+node_modules
+.svelte-kit
+
+# ignore css
+static/*.css
+
+# builds
+package
+build
+dist

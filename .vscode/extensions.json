@@ -1,0 +1,13 @@
+{
+    "recommendations": [
+        "mikestead.dotenv",
+        "editorconfig.editorconfig",
+        "dbaeumer.vscode-eslint",
+        "yzhang.markdown-all-in-one",
+        "csstools.postcss",
+        "esbenp.prettier-vscode",
+        "svelte.svelte-vscode",
+        "bradlc.vscode-tailwindcss",
+        "visualstudioexptteam.vscodeintellicode"
+    ]
+}

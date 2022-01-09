@@ -1,0 +1,13 @@
+.DS_Store
+.vscode/symbols.json
+
+# dev packages
+node_modules
+.svelte-kit
+
+# ignore the build css
+static/*.css
+
+# builds
+package
+build

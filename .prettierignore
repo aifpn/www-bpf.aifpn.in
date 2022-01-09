@@ -1,0 +1,11 @@
+# dev packages
+node_modules/**
+.svelte-kit/**
+
+# pkgs & assets
+package/**
+static/**
+
+# builds
+build/**
+dist/**
