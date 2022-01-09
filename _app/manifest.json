@@ -1,0 +1,88 @@
+{
+  ".svelte-kit/build/runtime/internal/start.js": {
+    "file": "start-ec662d65.js",
+    "src": ".svelte-kit/build/runtime/internal/start.js",
+    "isEntry": true,
+    "imports": [
+      "_vendor-b5968c1f.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout.svelte",
+      "src/routes/__error.svelte",
+      "src/routes/index.svelte",
+      "src/routes/gallery.svelte",
+      "src/routes/about.svelte"
+    ],
+    "css": [
+      "assets/start-464e9d0a.css"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "pages/__layout.svelte-fb9de70f.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b5968c1f.js",
+      "_config-1ca8ca8b.js"
+    ]
+  },
+  "src/routes/__error.svelte": {
+    "file": "pages/__error.svelte-404d3900.js",
+    "src": "src/routes/__error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b5968c1f.js",
+      "_config-1ca8ca8b.js",
+      "_Meta-9a00f251.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "pages/index.svelte-b0016e18.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b5968c1f.js"
+    ]
+  },
+  "src/routes/gallery.svelte": {
+    "file": "pages/gallery.svelte-b5b5de0a.js",
+    "src": "src/routes/gallery.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b5968c1f.js",
+      "_config-1ca8ca8b.js",
+      "_Meta-9a00f251.js"
+    ]
+  },
+  "src/routes/about.svelte": {
+    "file": "pages/about.svelte-03d908a5.js",
+    "src": "src/routes/about.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-b5968c1f.js",
+      "_config-1ca8ca8b.js",
+      "_Meta-9a00f251.js"
+    ]
+  },
+  "_vendor-b5968c1f.js": {
+    "file": "chunks/vendor-b5968c1f.js"
+  },
+  "_config-1ca8ca8b.js": {
+    "file": "chunks/config-1ca8ca8b.js",
+    "imports": [
+      "_vendor-b5968c1f.js"
+    ]
+  },
+  "_Meta-9a00f251.js": {
+    "file": "chunks/Meta-9a00f251.js",
+    "imports": [
+      "_vendor-b5968c1f.js",
+      "_config-1ca8ca8b.js"
+    ]
+  }
+}
