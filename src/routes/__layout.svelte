@@ -49,7 +49,7 @@
 
 {#key path}
     <Header styles="p-4 w-full h-full flex-cij sm:flex-row">
-        <img slot="logo" src="/assets/logo.png" alt="bpf-logo" />
+        <img slot="logo" src="/assets/logo-full.png" alt="bpf-logo" />
         <span slot="title" class="text-lg sm:text-2xl sm:my-1 md:text-3xl md:my-2 text-center font-extrabold"
             >{$i18n.title}</span
         >
