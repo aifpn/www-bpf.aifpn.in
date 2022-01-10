@@ -53,7 +53,7 @@
         <span slot="title" class="text-lg sm:text-2xl sm:my-1 md:text-3xl md:my-2 text-center font-extrabold"
             >{$i18n.title}</span
         >
-        <span slot="sub-title" class="my-2 md:text-2xl text-green-500 font-extrabold">{$i18n.sub_title}</span>
+        <span slot="sub-title" class="my-2 md:text-2xl text-red-500 font-extrabold">{$i18n.sub_title}</span>
         <span
             slot="menu-btn"
             class="sm:hidden px-4 py-2 m-1 text-center font-medium rounded-lg cursor-pointer bg-gradient-to-r from-green-500 via-green-600 to-green-700 hover:bg-gradient-to-br focus:ring-4 focus:ring-green-300 text-sm"
