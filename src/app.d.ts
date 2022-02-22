@@ -1,6 +1,23 @@
+/* eslint-disable @typescript-eslint/no-empty-interface */
+
 /// <reference types="@sveltejs/kit" />
 /// <reference types="svelte" />
 /// <reference types="vite/client" />
+
+declare namespace App {
+    interface Locals {}
+
+    interface Platform {}
+
+    interface Session {}
+
+    interface Stuff {}
+}
+
+interface ImportMetaEnv {
+    XQUA_PROD_BASE_URL: string;
+    XQUA_DEV_BASE_URL: string;
+}
 
 /**
  * With these declarations images can be imported in the components.
@@ -57,11 +74,4 @@ declare module "*.svg" {
 declare module "*.wbep" {
     const value: string;
     export = value;
-}
-
-// Start: Interfaces
-
-interface ImportMetaEnv {
-    XQUA_PROD_BASE_URL: string;
-    XQUA_DEV_BASE_URL: string;
 }

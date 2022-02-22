@@ -1,6 +1,7 @@
 <script lang="ts">
     import { derived } from "svelte/store";
-    import { locale } from "$lib/stores/locale";
+
+    import { page } from "$app/stores";
 
     import type { IMeta } from "$lib/types";
 
@@ -8,50 +9,63 @@
 
     export let metaData: Partial<IMeta> = {};
 
-    const i18n = derived(locale, ($locale) => {
+    const t = derived(page, ($page) => {
         // locale: english (en)
-        let strings: {
-            page_title: string;
-            page_description: string;
+        let data: {
+            title: string;
+            description: string;
+            keywords: string[];
         } = {
-            page_title: "Bharat Protection Force",
-            page_description: "Official Website for Bharat Protection Force",
+            title: "Bharat Protection Force",
+            description: "Official Website for Bharat Protection Force",
+            keywords: [
+                "aifpn",
+                "bpf",
+                "food processing",
+                "indian food processing nigam",
+                "bharat protection",
+                "protection force",
+                "bharat protection force",
+            ],
         };
 
-        switch ($locale) {
+        switch ($page.params.locale) {
             case "hi":
-                strings.page_title = "भारत सुरक्षा बल";
-                strings.page_description = "भारत सुरक्षा बल की आधिकारिक वेबसाइट";
+                data.title = "भारत सुरक्षा बल";
+                data.description = "भारत सुरक्षा बल की आधिकारिक वेबसाइट";
+                data.keywords = [
+                    "एआईएफपीएन",
+                    "बीपीएफ",
+                    "खाद्य प्रसंस्करण",
+                    "भारतीय खाद्य प्रसंस्करण निगम",
+                    "भारत संरक्षण",
+                    "रक्षा बल",
+                    "भारत सुरक्षा बल",
+                ];
         }
 
-        return strings;
+        return data;
     });
 
     metaData = {
-        description: metaData.description || $i18n.page_description,
-        keywords: [
-            "aifpn",
-            "bpf",
-            "food processing",
-            "nigam",
-            "indian food processing nigam",
-            "bharat protection",
-            "protection force",
-            "bharat protection force",
-        ],
+        url: `/${$page.params.locale}`,
+        robots: "index,follow",
+        keywords: [],
+        sitemapUrl: `/${$page.params.locale}/sitemap.xml`,
         ...metaData,
-        title: `${metaData.title || ""}${metaData.title && " - "}${$i18n.page_title}`,
+        title: `${metaData.title || ""}${metaData.title && " - "}${$t.title}`,
+        description: metaData.description || $t.description,
     };
 
     metaData = {
         ...metaData,
-        robots: "index,follow",
+        keywords: [...metaData.keywords, ...$t.keywords],
         openGraph: {
             ...metaData.openGraph,
-            url: `${cfg.base_url}${metaData.url}/`,
+            url: `${cfg.base_url}${metaData.url}`,
             title: metaData.title,
             description: metaData.description,
-            locale: `${$locale}_IN`,
+            locale: `${$page.params.locale}_IN`,
         },
         twitter: {
             ...metaData.twitter,
@@ -94,6 +108,10 @@
     <meta name="robots" content="{metaData.robots}" />
     <meta name="googlebot" content="{metaData.robots}" />
 
+    {#if metaData && metaData.title && metaData.sitemapUrl}
+        <link rel="sitemap" type="application/xml" title="{`${$t.title} - Sitemap`}" href="{metaData.sitemapUrl}" />
+    {/if}
+
     {#if metaData && metaData.title}
         <title>{metaData.title}</title>
         <meta name="title" content="{metaData.title}" />
@@ -108,7 +126,7 @@
     {/if}
 
     {#if metaData && metaData.url && cfg.base_url}
-        <link rel="canonical" href="{`${cfg.base_url}${metaData.url}/`}" />
+        <link rel="canonical" href="{`${cfg.base_url}${metaData.url}`}" />
     {/if}
 
     {#if metaData && metaData.twitter}

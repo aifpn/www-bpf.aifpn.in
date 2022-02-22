@@ -24,11 +24,7 @@ const config = {
         }),
     ],
     kit: {
-        // hydrate the <div id="app"> element in src/app.html
-        target: "#app",
-        ssr: true,
         adapter: adapter({ precompress: true }),
-        amp: false,
         prerender: {
             crawl: true,
             enabled: true,
