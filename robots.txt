@@ -1,3 +1,8 @@
 # https://www.robotstxt.org/robotstxt.html
+
+Sitemap: https://bpf.aifpn.in/sitemap.xml
+Sitemap: https://bpf.aifpn.in/en/sitemap.xml
+Sitemap: https://bpf.aifpn.in/hi/sitemap.xml
+
 User-agent: *
 Disallow:
