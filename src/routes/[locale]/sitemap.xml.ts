@@ -8,6 +8,7 @@ export async function get({ params }) {
     for (const route of [
         "/about/bpf",
         "/about/key-persons",
+        "/join/posts",
         "/join/eligibility",
         "/join/syllabus",
         "/join/faq",

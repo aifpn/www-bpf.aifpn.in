@@ -58,6 +58,10 @@
             href: $t.localize("/join"),
             childs: [
                 {
+                    name: "Posts",
+                    href: $t.localize("/join/posts"),
+                },
+                {
                     name: "Eligibility",
                     href: $t.localize("/join/eligibility"),
                 },
