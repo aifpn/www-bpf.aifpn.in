@@ -1,6 +1,6 @@
 {
   ".svelte-kit/build/runtime/internal/start.js": {
-    "file": "start-01cfcea6.js",
+    "file": "start-4cd41e47.js",
     "src": ".svelte-kit/build/runtime/internal/start.js",
     "isEntry": true,
     "imports": [
@@ -22,6 +22,7 @@
       "src/routes/[locale]/join/index.svelte",
       "src/routes/[locale]/join/eligibility.svelte",
       "src/routes/[locale]/join/syllabus.svelte",
+      "src/routes/[locale]/join/posts.svelte",
       "src/routes/[locale]/join/faq.svelte",
       "src/routes/[locale]/[...no_route].svelte"
     ],
@@ -62,7 +63,7 @@
     ]
   },
   "src/routes/[locale]/__layout.svelte": {
-    "file": "pages/_locale_/__layout.svelte-767a3bde.js",
+    "file": "pages/_locale_/__layout.svelte-14acc38b.js",
     "src": "src/routes/[locale]/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -100,7 +101,7 @@
     ]
   },
   "src/routes/[locale]/gallery.svelte": {
-    "file": "pages/_locale_/gallery.svelte-5ac783f0.js",
+    "file": "pages/_locale_/gallery.svelte-4c96bc3e.js",
     "src": "src/routes/[locale]/gallery.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -176,6 +177,18 @@
   "src/routes/[locale]/join/syllabus.svelte": {
     "file": "pages/_locale_/join/syllabus.svelte-dcb2d056.js",
     "src": "src/routes/[locale]/join/syllabus.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-dece7a2b.js",
+      "_stores-946d5db1.js",
+      "_Meta-d5044fc7.js",
+      "_config-102d0cfa.js"
+    ]
+  },
+  "src/routes/[locale]/join/posts.svelte": {
+    "file": "pages/_locale_/join/posts.svelte-8e0fc6f7.js",
+    "src": "src/routes/[locale]/join/posts.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
