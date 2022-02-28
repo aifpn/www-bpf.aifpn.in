@@ -14,30 +14,34 @@
             content: { t: string; d?: string }[];
             keywords: string[];
         } = {
-            title: "Posts / Ranks",
+            title: "Posts",
             content: [
                 { t: "Director General" },
                 { t: "Additional Director General" },
-                { t: "Inspector General" },
-                { t: "Deputy Inspector General" },
-                { t: "Senior Superintendent" },
-                { t: "Superintendent" },
-                { t: "Additional Superintendent" },
-                { t: "Deputy Superintendent" },
+                { t: "Chief Security Commissioner" },
+                { t: "Director /J.R BPF Academy" },
+                { t: "Deputy Chief Security Commissioner" },
+                { t: "Senior Security Commissioner" },
+                { t: "Security Commissioner" },
+                { t: "Commanding Officer" },
+                { t: "Assistant Security Commissioner" },
+                { t: "Assistant Commandant" },
+                { t: "Post Commander" },
                 { t: "Inspector" },
-                { t: "Sub Inspector" },
-                { t: "Assistant Sub Inspector" },
-                { t: "Writer Constable" },
+                { t: "Quarter Master" },
+                { t: "Special Inspector" },
+                { t: "Assistant Special Inspector" },
+                { t: "Driver" },
                 { t: "Constable" },
-                { t: "Follower" },
+                { t: "Cook" },
+                { t: "Tailor" },
+                { t: "Barber" },
+                { t: "Cobbler" },
+                { t: "Motor Cleaner" },
+                { t: "Dhobi" },
+                { t: "Mali" },
             ],
-            keywords: [
-                "join bpf",
-                "ranks in bpf",
-                "posts in bpf",
-                "ranks in bharat protection force",
-                "posts in bharat protection force",
-            ],
+            keywords: ["join bpf", "posts in bpf", "posts in bharat protection force"],
         };
 
         switch ($page.params.locale) {
@@ -46,26 +50,30 @@
                 data.content = [
                     { t: "महानिदेशक" },
                     { t: "अतिरिक्त महानिदेशक" },
-                    { t: "इंस्पेक्टर जनरल" },
-                    { t: "डिप्टी इंस्पेक्टर जनरल" },
-                    { t: "वरिष्ठ अधीक्षक" },
-                    { t: "अधीक्षक" },
-                    { t: "अतिरिक्त अधीक्षक" },
-                    { t: "उप अधीक्षक" },
+                    { t: "मुख्य सुरक्षा आयुक्त" },
+                    { t: "निदेशक / जे.आर बीपीएफ अकादमी" },
+                    { t: "उप मुख्य सुरक्षा आयुक्त" },
+                    { t: "वरिष्ठ सुरक्षा आयुक्त" },
+                    { t: "सुरक्षा आयुक्त" },
+                    { t: "कमांडिंग ऑफिसर" },
+                    { t: "सहायक सुरक्षा आयुक्त" },
+                    { t: "सहायक कमांडेंट" },
+                    { t: "पोस्ट कमांडर" },
                     { t: "इंस्पेक्टर" },
-                    { t: "सब इंस्पेक्टर" },
-                    { t: "सहायक उप निरीक्षक" },
-                    { t: "राइटर कांस्टेबल" },
+                    { t: "क्वार्टर मास्टर" },
+                    { t: "विशेष निरीक्षक" },
+                    { t: "सहायक विशेष निरीक्षक" },
+                    { t: "चालक" },
                     { t: "कांस्टेबल" },
-                    { t: "अनुयायी" },
+                    { t: "कुक" },
+                    { t: "दर्जी" },
+                    { t: "नाई" },
+                    { t: "मोची" },
+                    { t: "मोटर क्लीनर" },
+                    { t: "धोबी" },
+                    { t: "माली" },
                 ];
-                data.keywords = [
-                    "बीपीएफ में शामिल हों",
-                    "बीपीएफ में रैंक",
-                    "बीपीएफ में पद",
-                    "भारत सुरक्षा बल में रैंक",
-                    "भारत सुरक्षा बल में पद",
-                ];
+                data.keywords = ["बीपीएफ में शामिल हों", "बीपीएफ में पद", "भारत सुरक्षा बल में पद"];
         }
 
         return data;
@@ -90,7 +98,7 @@
             <span class="mx-1 text-xl text-blue-500">
                 <svg x="0px" y="0px" viewBox="0 0 255 255" xml:space="preserve"
                     ><polygon class="fill-current" points="0,255 127.5,0 255,255"></polygon></svg
-                >{$t.content.length - idx}
+                >{idx + 1}
             </span>
             <span class="mx-2 text-justify text-xl">{post.t}</span>
         </li>
