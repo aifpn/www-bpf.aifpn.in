@@ -1,0 +1,1 @@
+import{C as s}from"./vendor-c55a0f62.js";import{b as e}from"./paths-28a87002.js";function i(a,t,l){return(e?"/"+e:"")+"/"+l+a.substring(t.length+1)}var o;const r=s((o=window.localStorage.getItem("locale"))!=null?o:"en");r.subscribe(a=>{window.localStorage.setItem("locale",a)});export{i as a,r as l};

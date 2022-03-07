@@ -1,1 +1,0 @@
-import{C as s}from"./vendor-dece7a2b.js";import{b as a}from"./paths-28a87002.js";function i(e,t,l){return(a?"/"+a:"")+"/"+l+e.substring(t.length+1)}var o;const r=s((o=window.localStorage.getItem("locale"))!=null?o:"en");r.subscribe(e=>{window.localStorage.setItem("locale",e)});export{i as a,r as l};
