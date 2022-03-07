@@ -9,6 +9,7 @@ export async function get({ params }) {
         "/about/bpf",
         "/about/key-persons",
         "/join/posts",
+        "/join/si",
         "/join/eligibility",
         "/join/syllabus",
         "/join/faq",

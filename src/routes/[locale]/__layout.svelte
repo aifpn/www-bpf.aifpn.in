@@ -62,6 +62,10 @@
                     href: $t.localize("/join/posts"),
                 },
                 {
+                    name: "BPF SI",
+                    href: $t.localize("/join/si"),
+                },
+                {
                     name: "Eligibility",
                     href: $t.localize("/join/eligibility"),
                 },
