@@ -6,7 +6,6 @@
     import type { IMeta } from "$lib/types";
 
     import Meta from "$ui/Meta.svelte";
-    import { text } from "stream/consumers";
 
     const t = derived(page, ($page) => {
         // locale: english (en)

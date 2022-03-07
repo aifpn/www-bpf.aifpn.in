@@ -10,6 +10,7 @@ export async function get({ params }) {
         "/about/key-persons",
         "/join/posts",
         "/join/si",
+        "/join/inspector",
         "/join/eligibility",
         "/join/syllabus",
         "/join/faq",
