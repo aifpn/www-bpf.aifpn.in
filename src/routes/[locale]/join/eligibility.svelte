@@ -19,9 +19,9 @@
         } = {
             title: "Eligibility To Join",
             content: {
-                desc: "BPF i.e. Bharat Protection Force, which is responsible for the security of All India Food Processing Nigam. All India Food Processing Nigam recruit male and female constable for Bharat Protection Force by conducting BPF constable exam. The eligibility criteria to join BPF:",
+                desc: "BPF i.e. Bharat Protection Force which is responsible for the security of All India Food Processing Nigam. All India Food Processing Nigam recruits male and female candidates for Bharat Protection Force by conducting separate examination of BPF. The eligibility Criteria to Join BPF:",
                 points: [
-                    "To apply in BPF, it is necessary to pass at least 10th standard.",
+                    "To apply in BPF, it is necessary to pass at least 12th standard.",
                     "To apply in BPF, your age limit should be between 18 to 25 years. Apart from this, there is a relaxation in the upper age limit of 5 years for SC / ST candidates and 3 years for OBC candidates.",
                     "BPF also has physical measurement. In which the height of the male should be from 160 cm to 165 cm. At the same time, the height of the woman should be from 152 cm to 157 cm.",
                     "To take admission in BPF, the minimum chest measurement of a male should be 80 cms. At the same time, it should increase by 5 cm on inflating. That is, it should be 85 centimeters.To take admission in BPF, the minimum chest measurement of a male should be 80 cms. At the same time, it should increase by 5 cm on inflating. That is, it should be 85 centimeters.",
@@ -39,9 +39,9 @@
             case "hi":
                 data.title = "शामिल होने की पात्रता";
                 data.content = {
-                    desc: "बीपीएफ यानी भारत सुरक्षा बल, जो अखिल भारतीय खाद्य प्रसंस्करण निगम की सुरक्षा के लिए जिम्मेदार है। अखिल भारतीय खाद्य प्रसंस्करण निगम बीपीएफ कांस्टेबल परीक्षा आयोजित करके भारत सुरक्षा बल के लिए पुरुष और महिला कांस्टेबल की भर्ती करता है। बीपीएफ में शामिल होने के लिए पात्रता मानदंड:",
+                    desc: "बीपीएफ यानी भारत सुरक्षा बल जो अखिल भारतीय खाद्य प्रसंस्करण निगम की सुरक्षा के लिए जिम्मेदार है। अखिल भारतीय खाद्य प्रसंस्करण निगम बीपीएफ की अलग-अलग परीक्षा आयोजित करके भारत सुरक्षा बल के लिए पुरुष और महिला उम्मीदवारों की भर्ती करता है। बीपीएफ में शामिल होने के लिए पात्रता मानदंड:",
                     points: [
-                        "बीपीएफ में आवेदन करने के लिए कम से कम 10वीं पास होना जरूरी है।",
+                        "बीपीएफ में आवेदन करने के लिए कम से कम 12वीं पास होना जरूरी है।",
                         "बीपीएफ में आवेदन करने के लिए, आपकी आयु सीमा 18 से 25 वर्ष के बीच होनी चाहिए। इसके अलावा, अनुसूचित जाति / अनुसूचित जनजाति के उम्मीदवारों के लिए 5 वर्ष और ओबीसी उम्मीदवारों के लिए 3 वर्ष की ऊपरी आयु सीमा में छूट है।",
                         "बीपीएफ का शारीरिक माप भी होता है। जिसमें पुरुष की ऊंचाई 160 सेमी से 165 सेमी तक होनी चाहिए। वहीं महिला की ऊंचाई 152 सेमी से 157 सेमी होनी चाहिए।",
                         "बीपीएफ में प्रवेश लेने के लिए पुरुष के सीने का न्यूनतम माप 80 सेंटीमीटर होना चाहिए। वहीं फुलाने पर यह 5 सेंटीमीटर बढ़ जाना चाहिए। यानी 85 सेंटीमीटर होना चाहिए। बीपीएफ में प्रवेश लेने के लिए न्यूनतम एक पुरुष की छाती का माप 80 सेमी होना चाहिए। वहीं, फुलाने पर यह 5 सेमी बढ़ जाना चाहिए। यानी 85 सेंटीमीटर होना चाहिए।",
