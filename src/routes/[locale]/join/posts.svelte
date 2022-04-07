@@ -18,8 +18,8 @@
             content: [
                 { t: "Director General" },
                 { t: "Additional Director" },
-                { t: "General Inspector" },
-                { t: "Deputy General Inspector" },
+                { t: "Inspector General" },
+                { t: "Deputy Inspector General" },
                 { t: "Superintendent" },
                 { t: "Additional Superintendent" },
                 { t: "Assistant Deputy Superintendent" },
@@ -60,7 +60,7 @@
                 data.content = [
                     { t: "महानिदेशक" },
                     { t: "अतिरिक्त निदेशक" },
-                    { t: "सामान्य निरीक्षक" },
+                    { t: "महानिरीक्षक" },
                     { t: "उप महानिरीक्षक" },
                     { t: "अधीक्षक" },
                     { t: "अतिरिक्त अधीक्षक" },
