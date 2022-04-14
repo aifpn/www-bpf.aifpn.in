@@ -1,6 +1,6 @@
 {
   ".svelte-kit/build/runtime/internal/start.js": {
-    "file": "start-cd5d8413.js",
+    "file": "start-dcf9fc31.js",
     "src": ".svelte-kit/build/runtime/internal/start.js",
     "isEntry": true,
     "imports": [
@@ -213,7 +213,7 @@
     ]
   },
   "src/routes/[locale]/join/faq.svelte": {
-    "file": "pages/_locale_/join/faq.svelte-a3a8caf7.js",
+    "file": "pages/_locale_/join/faq.svelte-2855725b.js",
     "src": "src/routes/[locale]/join/faq.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
