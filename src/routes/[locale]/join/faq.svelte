@@ -18,7 +18,7 @@
             content: [
                 {
                     q: "Educational Qualification Required for BPF Constable",
-                    a: "If a candidate has not acquired the educational qualification at the time of filling the application form. So the CRC will cancel the candidature of such candidate. To apply for BPF constable exam, you must have passed at least 10th class from any accepted board. Only then you will be eligible for the BPF constable's exam.",
+                    a: "If a candidate has not acquired the educational qualification at the time of filling the application form. So the CRC will cancel the candidature of such candidate. To apply for BPF constable exam, you must be at least graduated from any accepted university. Only then you will be eligible for the BPF constable's exam.",
                 },
                 {
                     q: "BPF Constable Exam Languages",
@@ -54,12 +54,12 @@
                 data.title = "शामिल होने से संबंधित अक्सर पूछे जाने वाले प्रश्न";
                 data.content = [
                     {
-                        q: "बीपीएफ सिपाही के लिये जरूरी शैक्षणिक योग्यता",
-                        a: "यदि किसी उम्मीदवार ने आवेदन पत्र भरने के समय में शैक्षिक योग्यता हासिल नहीं की है। तो CRC ऐसे उम्मीदवार की उम्मीदवारी को रद्द कर देगी। बीपीएफ सिपाही परीक्षा में  आवेदन करने के लिए आपका किसी भी स्प्रावीकार किया गया बोर्ड से कम से कम 10 वीं कक्षा उत्तीर्ण किया होना जरूरी है। तभी आप बीपीएफ सिपाही की परीक्षा के लिए योग्य होंगे।",
+                        q: "बीपीएफ उप निरीक्षक के लिये जरूरी शैक्षणिक योग्यता",
+                        a: "यदि किसी उम्मीदवार ने आवेदन पत्र भरने के समय में शैक्षिक योग्यता हासिल नहीं की है। तो CRC ऐसे उम्मीदवार की उम्मीदवारी को रद्द कर देगी। बीपीएफ उप निरीक्षक परीक्षा में आवेदन करने के लिए आपका किसी भी मान्यता प्राप्त विश्व विद्यालय से कम से कम स्नातक उत्तीर्ण किया होना आवश्यक है। तभी आप बीपीएफ उप निरीक्षक की परीक्षा के लिए योग्य होंगे।",
                     },
                     {
-                        q: "बीपीएफ सिपाही परीक्षा भाषाएं",
-                        a: `<span>आप इन सभी भाषाओं में बीपीएफ सिपाही का कम्प्यूटर के माध्यम से परीक्षा देना चाहें तो दे सकते है। आपको इन में से किसी एक भाषा को चुनना होगा:</span>
+                        q: "बीपीएफ उप निरीक्षक परीक्षा भाषाएं",
+                        a: `<span>आप इन सभी भाषाओं में बीपीएफ उप निरीक्षक का कम्प्यूटर के माध्यम से परीक्षा देना चाहें तो दे सकते है। आपको इन में से किसी एक भाषा को चुनना होगा:</span>
                             <ol>
                                 <li>1. हिन्दी</li>
                                 <li>2. अंग्रेजी</li>
@@ -79,7 +79,7 @@
                             </ol>`,
                     },
                     {
-                        q: "बीपीएफ कांस्टेबल की आवश्यक राष्ट्रीयता",
+                        q: "बीपीएफ उप निरीक्षक की आवश्यक राष्ट्रीयता",
                         a: "आवेदक के पास भारत की नागरिकता की आईडी होना बहुत जरूरी है।",
                     },
                 ];
