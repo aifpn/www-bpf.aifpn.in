@@ -62,8 +62,8 @@
                     href: $t.localize("/join/posts"),
                 },
                 {
-                    name: "BPF SI",
-                    href: $t.localize("/join/si"),
+                    name: "BPF DI",
+                    href: $t.localize("/join/di"),
                 },
                 {
                     name: "BPF Inspector",

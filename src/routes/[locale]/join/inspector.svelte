@@ -20,7 +20,7 @@
             details: [
                 {
                     t: "Selection Process",
-                    c: "There is also direct recruitment to become a BPF Inspector for those who are Assistant Special Inspector and Special Inspector, they get the post of Inspector by promotion. In this recruitment is done for selection. In which you have to apply online by visiting the official website of BPF. After applying you will have to give three types of exam.",
+                    c: "There is also direct recruitment to become a BPF Inspector for those who are Deputy Inspector, they get the post of Inspector by promotion. In this recruitment is done for selection. In which you have to apply online by visiting the official website of BPF. After applying you will have to give three types of exam.",
                 },
                 {
                     t: "Written Exam",

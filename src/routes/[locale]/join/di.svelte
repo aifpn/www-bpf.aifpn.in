@@ -75,18 +75,18 @@
             };
             keywords: string[];
         } = {
-            title: "BPF SI: Special Inspector",
+            title: "BPF DI: Deputy Inspector",
             eligibility: {
                 title: "Eligibility",
-                desc: "BPF SI Eligibility Criteria has been defined along the following parameters:",
+                desc: "BPF DI Eligibility Criteria has been defined along the following parameters:",
                 list: [
                     {
                         key: "Nationality",
-                        desc: "Only Indian citizens are eligible to apply for BPF SI Exam.",
+                        desc: "Only Indian citizens are eligible to apply for BPF DI Exam.",
                     },
                     {
                         key: "Age Limit",
-                        desc: "Candidates should be between 20 to 27 years of age to be eligible for BPF SI Exam. There is age relaxation provided to candidates belonging to reserved categories the details of which are as follows.",
+                        desc: "Candidates should be between 20 to 27 years of age to be eligible for BPF DI Exam. There is age relaxation provided to candidates belonging to reserved categories the details of which are as follows.",
                         list: [
                             { key: "ST&SC candidates", desc: "5 Years" },
                             { key: "OBC", desc: "3 Years" },
@@ -114,13 +114,13 @@
                     },
                     {
                         key: "Number Of Attempts",
-                        desc: "There is no restriction on the number of Attempts for BPF SI Exam. Candidates can apply for the exam. as many times as they want provided they fulfill the above mentioned eligibility criteria.",
+                        desc: "There is no restriction on the number of Attempts for BPF DI Exam. Candidates can apply for the exam. as many times as they want provided they fulfill the above mentioned eligibility criteria.",
                     },
                 ],
             },
             medical: {
                 title: "Medical Standards",
-                desc: "The medical standards for both special inspector and constable are the same. The medical examination takes place after the documents verification round. Candidates are sent to the dist hospital for the same. Students to fulfill the medical category B-1 as per laid in the All India Food Processing Nigam medical manual. It should be noted that candidates wearing glasses, having a flat foot, knock-knee squint eyes, color blindness, and other bodily defects shall be termed as disqualified.",
+                desc: "The medical standards for both inspector and deputy inspector are the same. The medical examination takes place after the documents verification round. Candidates are sent to the dist hospital for the same. Students to fulfill the medical category B-1 as per laid in the All India Food Processing Nigam medical manual. It should be noted that candidates wearing glasses, having a flat foot, knock-knee squint eyes, color blindness, and other bodily defects shall be termed as disqualified.",
                 list: [
                     {
                         key: "Standards",
@@ -156,7 +156,7 @@
                                 key: "1",
                                 desc: "Candidates have the options to choose a language for CBT from Hindi, English, Urdu, Tamil, Telugu, Konkani, Bengali, Odia, Assamese, Manipuri and Punjabi",
                             },
-                            { key: "2", desc: "The standards of questions in BPF SI Exam will be of graduation level" },
+                            { key: "2", desc: "The standards of questions in BPF DI Exam will be of graduation level" },
                             { key: "3", desc: "Each question carries one mark" },
                             { key: "4", desc: "There is a negative marking of 1/3 marks for wrong answers" },
                             {
@@ -265,31 +265,31 @@
                 "join bpf",
                 "bpf jobs",
                 "bpf recruitment",
-                "bpf si job",
-                "bpf si exam syllabus",
-                "bpf special inspector job",
-                "bpf special inspector exam syllabus",
-                "bharat protection force si job",
-                "bharat protection force si exam syllabus",
-                "bharat protection force special inspector job",
-                "bharat protection force special inspector exam syllabus",
+                "bpf di job",
+                "bpf di exam syllabus",
+                "bpf deputy inspector job",
+                "bpf deputy inspector exam syllabus",
+                "bharat protection force di job",
+                "bharat protection force di exam syllabus",
+                "bharat protection force deputy inspector job",
+                "bharat protection force deputy inspector exam syllabus",
             ],
         };
 
         switch ($page.params.locale) {
             case "hi":
-                data.title = "बीपीएफ एसआई: विशेष निरीक्षक";
+                data.title = "बीपीएफ डीआई: डिप्टी इंस्पेक्टर";
                 data.eligibility = {
                     title: "पात्रता",
-                    desc: "बीपीएफ एसआई पात्रता मानदंड को निम्नलिखित मापदंडों के साथ परिभाषित किया गया है:",
+                    desc: "बीपीएफ डीआई पात्रता मानदंड को निम्नलिखित मापदंडों के साथ परिभाषित किया गया है:",
                     list: [
                         {
                             key: "राष्ट्रीयता",
-                            desc: "केवल भारतीय नागरिक ही BPF SI परीक्षा के लिए आवेदन करने के पात्र हैं।",
+                            desc: "केवल भारतीय नागरिक ही BPF DI परीक्षा के लिए आवेदन करने के पात्र हैं।",
                         },
                         {
                             key: "आयु सीमा",
-                            desc: "बीपीएफ एसआई परीक्षा के लिए पात्र होने के लिए उम्मीदवारों की आयु 20 से 27 वर्ष के बीच होनी चाहिए। आरक्षित श्रेणियों से संबंधित उम्मीदवारों को आयु में छूट प्रदान की जाती है, जिसका विवरण इस प्रकार है।",
+                            desc: "बीपीएफ डीआई परीक्षा के लिए पात्र होने के लिए उम्मीदवारों की आयु 20 से 27 वर्ष के बीच होनी चाहिए। आरक्षित श्रेणियों से संबंधित उम्मीदवारों को आयु में छूट प्रदान की जाती है, जिसका विवरण इस प्रकार है।",
                             list: [
                                 { key: "एसटी और एससी उम्मीदवार", desc: "5 वर्ष" },
                                 { key: "ओबीसी", desc: "3 वर्ष" },
@@ -317,13 +317,13 @@
                         },
                         {
                             key: "प्रयासों की संख्या",
-                            desc: "बीपीएफ एसआई परीक्षा के लिए प्रयासों की संख्या पर कोई प्रतिबंध नहीं है। उम्मीदवार परीक्षा के लिए आवेदन कर सकते हैं। वे जितनी बार चाहें उतनी बार आवेदन कर सकते हैं बशर्ते वे उपर्युक्त पात्रता मानदंडों को पूरा करते हों।",
+                            desc: "बीपीएफ डीआई परीक्षा के लिए प्रयासों की संख्या पर कोई प्रतिबंध नहीं है। उम्मीदवार परीक्षा के लिए आवेदन कर सकते हैं। वे जितनी बार चाहें उतनी बार आवेदन कर सकते हैं बशर्ते वे उपर्युक्त पात्रता मानदंडों को पूरा करते हों।",
                         },
                     ],
                 };
                 data.medical = {
                     title: "चिकित्सा मानक",
-                    desc: "विशेष निरीक्षक और कांस्टेबल दोनों के लिए चिकित्सा मानक समान हैं। दस्तावेजों के सत्यापन के दौर के बाद चिकित्सा परीक्षा होती है। उम्मीदवारों को उसी के लिए जिला अस्पताल भेजा जाता है। छात्रों को निर्धारित के अनुसार चिकित्सा श्रेणी बी -1 को पूरा करने के लिए। अखिल भारतीय खाद्य प्रसंस्करण निगम चिकित्सा नियमावली में। यह ध्यान दिया जाना चाहिए कि चश्मा पहने हुए, एक सपाट पैर, घुटने टेकने वाली आंखें, रंग अंधापन, और अन्य शारीरिक दोषों वाले उम्मीदवारों को अयोग्य घोषित किया जाएगा। ",
+                    desc: "इंस्पेक्टर और डिप्टी इंस्पेक्टर दोनों के लिए चिकित्सा मानक समान हैं। दस्तावेजों के सत्यापन के दौर के बाद चिकित्सा परीक्षा होती है। उम्मीदवारों को उसी के लिए जिला अस्पताल भेजा जाता है। छात्रों को निर्धारित के अनुसार चिकित्सा श्रेणी बी -1 को पूरा करने के लिए। अखिल भारतीय खाद्य प्रसंस्करण निगम चिकित्सा नियमावली में। यह ध्यान दिया जाना चाहिए कि चश्मा पहने हुए, एक सपाट पैर, घुटने टेकने वाली आंखें, रंग अंधापन, और अन्य शारीरिक दोषों वाले उम्मीदवारों को अयोग्य घोषित किया जाएगा। ",
                     list: [
                         {
                             key: "मानक",
@@ -359,7 +359,7 @@
                                     key: "1",
                                     desc: "उम्मीदवारों के पास हिंदी, अंग्रेजी, उर्दू, तमिल, तेलुगु, कोंकणी, बंगाली, ओडिया, असमिया, मणिपुरी और पंजाबी से सीबीटी के लिए भाषा चुनने का विकल्प है",
                                 },
-                                { key: "2", desc: "बीपीएफ एसआई परीक्षा में प्रश्नों के मानक स्नातक स्तर के होंगे" },
+                                { key: "2", desc: "बीपीएफ डीआई परीक्षा में प्रश्नों के मानक स्नातक स्तर के होंगे" },
                                 { key: "3", desc: "प्रत्येक प्रश्न में एक अंक होता है" },
                                 { key: "4", desc: "गलत उत्तरों के लिए 1/3 अंक का नकारात्मक अंकन है" },
                                 {
@@ -464,14 +464,14 @@
                     "बीपीएफ में शामिल हों",
                     "बीपीएफ जॉब्स",
                     "बीपीएफ भर्ती",
-                    "बीपीएफ एसआई जॉब",
-                    "बीपीएफ एसआई परीक्षा पाठ्यक्रम",
-                    "बीपीएफ विशेष निरीक्षक जॉब",
-                    "बीपीएफ विशेष निरीक्षक परीक्षा पाठ्यक्रम",
-                    "भारत सुरक्षा बल एसआई जॉब",
-                    "भारत सुरक्षा बल एसआई परीक्षा पाठ्यक्रम",
-                    "भारत सुरक्षा बल विशेष निरीक्षक की नौकरी",
-                    "भारत सुरक्षा बल विशेष निरीक्षक परीक्षा पाठ्यक्रम",
+                    "बीपीएफ डीआई जॉब",
+                    "बीपीएफ डीआई परीक्षा पाठ्यक्रम",
+                    "बीपीएफ डिप्टी इंस्पेक्टर जॉब",
+                    "बीपीएफ डिप्टी इंस्पेक्टर परीक्षा पाठ्यक्रम",
+                    "भारत सुरक्षा बल डीआई जॉब",
+                    "भारत सुरक्षा बल डीआई परीक्षा पाठ्यक्रम",
+                    "भारत सुरक्षा बल डिप्टी इंस्पेक्टर की नौकरी",
+                    "भारत सुरक्षा बल डिप्टी इंस्पेक्टर परीक्षा पाठ्यक्रम",
                 ];
         }
 
@@ -479,7 +479,7 @@
     });
 
     const metaData: Partial<IMeta> = {
-        url: `/${$page.params.locale}/join/si`,
+        url: `/${$page.params.locale}/join/di`,
         title: $t.title,
         keywords: $t.keywords,
     };
