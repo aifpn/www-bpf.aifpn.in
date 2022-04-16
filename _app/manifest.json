@@ -1,6 +1,6 @@
 {
   ".svelte-kit/build/runtime/internal/start.js": {
-    "file": "start-dcf9fc31.js",
+    "file": "start-a21063a1.js",
     "src": ".svelte-kit/build/runtime/internal/start.js",
     "isEntry": true,
     "imports": [
@@ -25,7 +25,7 @@
       "src/routes/[locale]/join/syllabus.svelte",
       "src/routes/[locale]/join/posts.svelte",
       "src/routes/[locale]/join/faq.svelte",
-      "src/routes/[locale]/join/si.svelte",
+      "src/routes/[locale]/join/di.svelte",
       "src/routes/[locale]/[...no_route].svelte"
     ],
     "css": [
@@ -65,7 +65,7 @@
     ]
   },
   "src/routes/[locale]/__layout.svelte": {
-    "file": "pages/_locale_/__layout.svelte-0d7a9ab3.js",
+    "file": "pages/_locale_/__layout.svelte-2efc46c0.js",
     "src": "src/routes/[locale]/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -165,7 +165,7 @@
     ]
   },
   "src/routes/[locale]/join/eligibility.svelte": {
-    "file": "pages/_locale_/join/eligibility.svelte-9cb58b9c.js",
+    "file": "pages/_locale_/join/eligibility.svelte-0afc7458.js",
     "src": "src/routes/[locale]/join/eligibility.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -177,7 +177,7 @@
     ]
   },
   "src/routes/[locale]/join/inspector.svelte": {
-    "file": "pages/_locale_/join/inspector.svelte-5d7d851d.js",
+    "file": "pages/_locale_/join/inspector.svelte-8ced11c0.js",
     "src": "src/routes/[locale]/join/inspector.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -224,9 +224,9 @@
       "_config-102d0cfa.js"
     ]
   },
-  "src/routes/[locale]/join/si.svelte": {
-    "file": "pages/_locale_/join/si.svelte-af5b3df1.js",
-    "src": "src/routes/[locale]/join/si.svelte",
+  "src/routes/[locale]/join/di.svelte": {
+    "file": "pages/_locale_/join/di.svelte-116fd347.js",
+    "src": "src/routes/[locale]/join/di.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
